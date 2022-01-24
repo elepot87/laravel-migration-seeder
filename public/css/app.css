@@ -17,13 +17,13 @@ header {
   background-color: #000000;
 }
 header .main-nav {
-  padding: 16px;
+  padding: 20px;
 }
 header .main-nav .main-menu {
   justify-content: center;
 }
 header .main-nav .main-menu .menu-item {
-  margin-right: 15px;
+  margin-right: 25px;
 }
 header .main-nav .main-menu .menu-item .active {
   text-decoration: underline;
