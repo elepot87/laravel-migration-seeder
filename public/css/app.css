@@ -38,15 +38,16 @@ header .main-nav .main-menu {
 header .main-nav .main-menu .menu-item {
   margin-right: 25px;
 }
-header .main-nav .main-menu .menu-item .active {
-  text-decoration: underline;
-}
 header .main-nav .main-menu .menu-item .menu-item-link {
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
 }
 header .main-nav .main-menu .menu-item .menu-item-link:hover {
+  color: #96c471;
+}
+header .main-nav .main-menu .menu-item .menu-item-link.active {
+  text-decoration: underline;
   color: #96c471;
 }
 

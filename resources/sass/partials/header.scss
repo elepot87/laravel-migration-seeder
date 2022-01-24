@@ -6,15 +6,16 @@ header {
             justify-content: center;
             .menu-item {
                 margin-right: 25px;
-                .active {
-                    text-decoration: underline;
-                }
                 .menu-item-link {
                     text-decoration: none;
                     text-transform: uppercase;
                     color: $third-color;
                 }
                 .menu-item-link:hover {
+                    color: $primary-color;
+                }
+                .menu-item-link.active {
+                    text-decoration: underline;
                     color: $primary-color;
                 }
             }
