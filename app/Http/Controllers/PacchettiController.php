@@ -4,9 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Travel;
+
 class PacchettiController extends Controller
 {
     public function index() {
-        return view ('pacchetti-viaggio');
+        // Dati dal DB
+        $travels=Travel::all();
+        // Ritorno della vista
+        return view ('pacchetti-viaggio', compact('travels'));
     }
 }
