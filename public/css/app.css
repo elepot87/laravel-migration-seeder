@@ -5,12 +5,25 @@
   font-family: sans-serif;
 }
 
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .flex {
   display: flex;
 }
 
 .list-style-none {
   list-style: none;
+}
+
+.container-main {
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -35,4 +48,10 @@ header .main-nav .main-menu .menu-item .menu-item-link {
 }
 header .main-nav .main-menu .menu-item .menu-item-link:hover {
   color: #96c471;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 20px;
+  color: #ffffff;
 }
