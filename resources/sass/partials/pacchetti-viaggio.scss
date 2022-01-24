@@ -3,5 +3,11 @@
     padding: 20px;
     h2 {
         color: $primary-color;
+        margin: 15px 0;
+    }
+    .list-travels {
+        .travel-item {
+            padding: 15px 0;
+        }
     }
 }

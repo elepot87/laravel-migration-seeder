@@ -63,4 +63,8 @@ header .main-nav .main-menu .menu-item .menu-item-link.active {
 }
 .packages-travel h2 {
   color: #96c471;
+  margin: 15px 0;
+}
+.packages-travel .list-travels .travel-item {
+  padding: 15px 0;
 }
