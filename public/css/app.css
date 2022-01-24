@@ -56,3 +56,11 @@ header .main-nav .main-menu .menu-item .menu-item-link.active {
   padding: 20px;
   color: #ffffff;
 }
+
+.packages-travel {
+  flex-direction: column;
+  padding: 20px;
+}
+.packages-travel h2 {
+  color: #96c471;
+}
